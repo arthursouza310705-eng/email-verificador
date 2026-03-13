@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+email-validator
+dnspython
+python-multipart
+jinja2
