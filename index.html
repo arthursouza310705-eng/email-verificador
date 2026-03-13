@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Verificador de Emails</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f5f5f5;
+text-align:center;
+padding-top:100px;
+}
+
+.box{
+background:white;
+width:420px;
+margin:auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+button{
+background:#4CAF50;
+color:white;
+border:none;
+padding:10px 20px;
+margin-top:15px;
+cursor:pointer;
+border-radius:5px;
+font-size:16px;
+}
+
+input{
+margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Verificador de Emails</h2>
+
+<form action="/verificar" method="post" enctype="multipart/form-data">
+
+<input type="file" name="file" required>
+
+<br>
+
+<button type="submit">
+Verificar Lista
+</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
